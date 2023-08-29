@@ -23,6 +23,8 @@ export default  function Main(){
         bloodpressureDate:[],
         goals:[],
         goalDate:[],
+        pres:[],
+        healthdoc:[],
     }
     useEffect(()=>{
         AOS.init({duration:5000});

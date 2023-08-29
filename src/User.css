@@ -37,16 +37,18 @@
     height: 400px;
     object-fit: contain;
   }
-  .user-card {
-    display: flex;
-    flex-direction: row-reverse;
-    border: 1px solid black;
-    align-items:center;
-    justify-content: center;
-    position: relative;
-    width: fit-content;
-    cursor: pointer;
+ 
+  .user-card{
+    background: #c7ebef;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px #ccc;
+    padding: 0 0 0 0 ;
+    width: 500px;
+    margin: 30px;
+    float: left;
   }
+ 
+  
   .user-card button{
     align-items: center;
     text-align: center;
@@ -63,14 +65,21 @@
     opacity: 75%;
   }
   .user-card:hover button{
-    display: inline;
+    display:inline-flex;
+    position: relative;
+    top:-100px;
+    background-color: #e776f8;
   }
   .user-card button{
     position: absolute;
   }
+  .user-card img{
+    width:400px;
+    height: 300px;
+  }
   .graph{
     height:400px;
-    background-color: antiquewhite;
+    background-color: #bff0f4;
   }
  
   .MuiTabs-scroller{
@@ -91,4 +100,77 @@
   .my-btn:hover{
     background-color: black;
     color:white;
+  }
+  .note {
+    background: #bff0f4;
+    border-radius: 7px;
+    box-shadow: 0 2px 5px #ccc;
+    padding: 10px;
+    width: 500px;
+    margin: 30px;
+    float: left;
+  }
+  .note h1 {
+    font-size: 1.1em;
+    margin-bottom: 6px;
+  }
+  .note p {
+    font-size: 1.1em;
+    margin-bottom: 10px;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+  }
+  
+  .note button {
+    position: relative;
+    float: right;
+    margin-right: 10px;
+    color: #e776f8;
+    border: none;
+    width: 36px;
+    height: 36px;
+    cursor: pointer;
+    outline: none;
+  }
+  form {
+    position: relative;
+    width: 500px;
+    margin: 30px auto 20px auto;
+    background: #8cdfed;
+    padding: 20px;
+    border-radius: 7px;
+    box-shadow: 0 1px 5px rgb(138, 137, 137);
+  }
+  form input,
+  form textarea {
+    width: 100%;
+    
+    padding: 4px;
+    outline: none;
+    font-size: 1.2em;
+    font-family: inherit;
+    resize: none;
+  }
+  form button {
+    position: absolute;
+    right: 15px;
+    bottom: -18px;
+    background: #e776f8;
+    color: #fff;
+    border: none;
+    border-radius: 40% ;
+    width: 60px;
+    height: 50px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    outline: none;
+    padding:0;
+  }
+  .health-metric{
+    
+    width:90%; 
+    margin-left: 50px;
+  }
+  .health-metric button{
+    align-items: center;
   }

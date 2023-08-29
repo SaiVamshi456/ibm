@@ -183,10 +183,10 @@ function App() {
                 {/* <Route path='/' element={[<Nav/>]}></Route> */}
               
                 <Route path='/appoint' element={[<Nav/>,<Footer/>]} > </Route>
-                <Route path="/healthrecords" element={[<Nav />,<HealthRecords />,<Footer />]}> </Route>
-                <Route path="/prescriptions" element={[<Nav />,<Prescriptions />,<Footer />]}> </Route>
-                <Route path="/healthmetrics" element={[<Nav />,<HealthMetrics/>,<Footer />]}> </Route>
-                <Route path="/profile" element={[<Nav />,<Profile />,<Footer />]}> </Route>
+                <Route path="/healthrecords" element={[<Nav />,<HealthRecords />,]}> </Route>
+                <Route path="/prescriptions" element={[<Nav />,<Prescriptions />,]}> </Route>
+                <Route path="/healthmetrics" element={[<Nav />,<HealthMetrics/>]}> </Route>
+                <Route path="/profile" element={[<Nav />,<Profile />,]}> </Route>
         </Routes>
       </Router>
     </div>

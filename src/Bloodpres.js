@@ -88,7 +88,7 @@ export default  function Bloodpres(){
 
  }
  return(
-   <div>
+   <div  className="health-metric">
        <label >Update the Cystole</label>
        <input type="number" value={cystole} onChange={e=>setcystole(e.target.value)}/>
        <label >Update your Diastole value</label>

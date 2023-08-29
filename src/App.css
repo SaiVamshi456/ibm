@@ -23,6 +23,7 @@ button{
 }
 
 .nav{
+  background-color: #FFC7EA;
   margin: -5px -5px;
   box-shadow: 0px 0px 4px 3px rgb(216, 226, 235);
   height: 80px;
@@ -100,22 +101,22 @@ button{
   float: right;
 }
 .home:hover{
-  background-color: rgb(144, 144, 240);
+  background-color: rgb(202, 144, 240);
   color: white;
   box-shadow: inset 1px 2px 10px rgb(105, 105, 182);
 }
 .log:hover{
-  background-color: rgb(144, 144, 240);
+  background-color: rgb(237, 144, 240);
   color: white;
   box-shadow: inset 1px 2px 10px rgb(105, 105, 182);
 }
 .reg:hover{
-  background-color: rgb(144, 144, 240);
+  background-color: rgb(235, 144, 240);
   color: white;
   box-shadow: inset 1px 2px 10px rgb(105, 105, 182);
 }
 .sides:hover{
-  background-color: rgb(144, 144, 240);
+  background-color: rgb(224, 144, 240);
   color: white;
   box-shadow: inset 1px 2px 10px rgb(105, 105, 182);
 }
